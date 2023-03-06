@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tilt+Prism&display=swap');
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    ;
+    
+}
+
+.a {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    position: sticky relative;
+    top: 0%;
+    display: flex;
+    position: sticky;
+    z-index: 10;
+}
+
+#a1 {
+    background-image: url("images/starbucks.png");
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+h2 {
+    position: absolute;
+    top: 5px;
+}
+
+#q1 {
+    left: 200px;
+}
+
+#q2 {
+    left: 300px;
+}
+
+#q3 {
+    left: 400px;
+}
+
+#q4 {
+    left: 500px;
+}
+
+#q5 {
+    left: 600px;
+}
+
+#search {
+    position: absolute;
+    left: 1000px;
+    top: 25px;
+    width: 250px;
+    height: 25px;
+    border-radius: 70px;
+    text-align: center;
+    padding: 5px;
+}
+
+.b {
+
+    background-image: url("images/searchlogo.jpg");
+    height: 29px;
+    width: 29px;
+    position: absolute;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 1005px;
+    margin-top: 29px;
+}
+
+.c {
+    background-image: url("images/account logo.png");
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 1300px;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.offer {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(21, 62, 21);
+    margin-top: -20px;
+    text-align: left;
+    color: white;
+}
+
+.know {
+
+    width: fit-content;
+    height: 32px;
+    width: 110px;
+    border-radius: 10px;
+    margin-left: 1205px;
+    margin-top: -50px;
+    border-radius: 30px;
+    text-align: justify;
+
+}
+
+#km {
+    border-radius: 20px;
+    padding: 5px;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(21, 62, 21);
+    color: white;
+    border: 1px white solid;
+}
+
+.avail {
+    margin-top: 21px;
+    margin-left: 95px;
+    padding-top: 10px;
+    width: max-content;
+}
+
+.col {
+
+    height: 108px;
+    width: 108px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #060606;
+    cursor: pointer;
+    margin-top: 71px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+.hand {
+    height: 0px;
+    margin-left: 93px;
+}
+
+.hand2 {
+    height: 40px;
+    padding-left: 93px;
+    padding-top: 10px;
+    background-color: lightgray;
+}
+
+.hand3 {
+    height: 30px;
+    padding-left: 93px;
+    padding-top: 10px;
+    background-color: lightgrey;
+}
+
+.curated {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+
+    height: 250px;
+}
+
+.col {
+    background-size: cover;
+    margin-left: 37px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.2s ease-in-out;
+
+
+}
+
+.col:hover {
+    transform: scale(1.111);
+}
+
+.col-1 {
+    background-image: url("images/Bestseller.jpg");
+}
+
+.col-2 {
+    background-image: url("images/Drinks.jpg");
+}
+
+.col-3 {
+    background-image: url("images/Food.jpg");
+}
+
+.col-4 {
+    background-image: url("images/Merchandise.jpg");
+}
+
+.col-5 {
+    background-image: url("images/CoffeeAtHome.jpg");
+}
+
+.col-6 {
+    background-image: url("images/ReadyToEat.jpg");
+}
+
+.be {
+    margin-top: 141px;
+    margin-left: -11px;
+    height: 30px;
+    width: 200px
+}
+
+.fo {
+    margin-left: 12px;
+}
+
+.dr {
+    margin-left: 4px;
+}
+
+.order {
+    margin-left: 15px;
+}
+
+.barista {
+    background-color: lightgray;
+
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.coffe {
+    background-color: white;
+    height: 160px;
+    width: 400px;
+    z-index: 6;
+    border: 1px solid white;
+    margin-top: 45px;
+    border-radius: 8px;
+   
+    transition: 0.2s ease-in-out;
+}
+.coffe:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#add {
+    height: 30px;
+    width: 90px;
+    border-radius: 30px;
+    margin-top: 9px;
+    margin-left: 283px;
+    padding: 5px;
+    background-color: green;
+    color: white;
+}
+
+h4 {
+    margin-top: -19px;
+    margin-left: 26px;
+}
+
+.veg {
+    width: 16px;
+    height: 16px;
+    background-image: url("images/veg.svg");
+    background-size: cover;
+    margin-left: 120px;
+    margin-top: -131px;
+}
+
+.name {
+    margin-left: 120px;
+    margin-top: 9px;
+}
+
+.j {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    background-size: cover;
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-left: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.2s ease-in-out;
+}
+.j:hover
+{
+    transform: scale(1.2);
+}
+.java {
+    background-image: url("images/Bestseller.jpg");
+    background-size: cover;
+    background-repeat: 0;
+}
+
+.cold {
+    background-image: url("images/coffeeeeeeee.png");
+    background-size: cover;
+}
+
+.vanilla {
+    background-image: url("images/JAAAAVA.png");
+    background-size: cover;
+}
+
+.order {
+    height: 370px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.price {
+    height: 220px;
+    width: 1167px;
+    background-color: pink;
+    z-index: 7;
+    border: 1px solid black;
+    margin-top: 60px;
+    border-radius: 15px;
+    padding-left: 150px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.bottle {
+    background-image: url("images/Group_1571_e12e38243c.png");
+    height: 195px;
+    width: 100px;
+    background-size: cover;
+    margin-top: 18px;
+    margin-left: -139px;
+}
+
+.intro {
+    margin-top: -224px;
+    margin-left: -12px;
+    font-size: larger;
+}
+
+.bu {
+    margin-top: -208px;
+    margin-left: -13px;
+}
+
+#order1 {
+    margin-top: 100px;
+    margin-left: 961px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 50px;
+    border-color: white;
+}
+
+.world {
+    height: 480px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    color
+}
+
+.commit {
+    margin-top: 197px;
+    margin-left: 45px;
+
+
+}
+
+#lm {
+    width: 200px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.sustain {
+    height: 360px;
+    width: 1300px;
+    background-color: orangered;
+    margin-top: 100px;
+    border-radius: 10px;
+    color: white;
+    background-image: url("images/coffecultre.jpg");
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+/* .cultre
+{
+    /* background-image: url("images/coffecultre.jpg");
+    height: 360px;
+    background-size: cover;
+    border-radius: 10px; */
+background-color: aqua;
+}
+
+.news {
+    height: 560px;
+    background-color: forestgreen;
+    display: flex;
+    justify-content: left;
+}
+
+.mysore {
+    width: 100%;
+    height: 200px;
+    background-image: url("images/mysuru1_1_2df9c3933a.jpg");
+    background-size: cover;
+    opacity: 1;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.open {}
+
+#but {
+    width: 120px;
+    height: 32px;
+    border-radius: 30px;
+    margin-top: 130px;
+    margin-left: 20px;
+    color: white;
+    background-color: green;
+    border-color: green;
+}
+
+.store {
+    height: 380px;
+    width: 380px;
+    background-color: whitesmoke;
+    margin-top: 51px;
+    margin-left: 65px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.new {
+    margin-left: 97px;
+    margin-top: -181px;
+}
+
+.nothing {
+    width: 100%;
+    height: 100px;
+}
+
+
+
+.foot {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(21, 62, 21);
+    color: white;
+
+
+}
+
+.logo {
+    background-image: url("images/starbucks.png");
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    border: 20px;
+    margin-top: 20px;
+}
+
+.f {
+    background-color: palevioletred;
+    height: 30px;
+    width: 30px;
+
+}
+
+.app1 {
+    background-color: white;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+.app {
+    background-color: white;
+    width: 178px;
+    height: 48px;
+    background-image: url("images/appstoreAndroid.png");
+    background-size: cover;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    margin-top: 3px;
+}
+
+.iapp {
+    background-color: white;
+    width: 178px;
+    height: 48px;
+    background-image: url("images/appstoreiOS.png");
+    background-size: cover;
+    padding-bottom: 15px px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.face {
+    background-color: blue;
+    background-image: url(images/facebook.svg);
+    background-size: cover;
+    margin-left: -18px;
+}
+
+.insta {
+    background-color: chartreuse;
+    background-image: url("images/instagram.svg");
+    background-size: cover;
+    margin-left: 14px;
+}
+
+.twitter {
+    background-color: dodgerblue;
+    background-image: url("images/twitter.svg");
+    background-size: cover;
+    margin-left: 13px;
+}
+
+.social1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 66px;
+    margin-left: -114px;
+}
+
+hr {
+    background-color: rgb(21, 62, 21);
+    color: rgb(21, 62, 21);
+}
+
+.foot2 {
+    height: 100px;
+    display: flex;
+    margin-top: -17px;
+    justify-content: left;
+    background-color: rgb(21, 62, 21);
+    color: white;
+}
+
+.web {
+    padding-right: 30px;
+    padding-left: 40px;
+    border-right: 1px white solid;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+
+
+}
+
+#we {
+    margin-top: 10px;
+}
+
+h6
+{
+    margin-top: 57px;
+    font-size: 1em;
+    
+    font-style: normal;
+    
+}
+
+#rights {
+    margin-left: 1049px;
+    margin-top: -90px;
+    color: white;
+}
+
+.hand4 {
+
+    padding-left: 63px;
+    padding-top: 24px;
+}
+#from
+{
+    margin-top: -10px;
+}
+#km:hover
+{
+    background-color: white;
+    color: rgb(21, 62, 21);
+}
+#but:hover
+{
+    background-color: whitesmoke;
+    color: green;
+}
